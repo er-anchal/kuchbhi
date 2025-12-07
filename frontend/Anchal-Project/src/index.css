@@ -1,0 +1,41 @@
+.card{
+  width:200px ;
+  height:300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff; 
+  margin: 20px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(232, 237, 238);
+}
+
+.nav div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
